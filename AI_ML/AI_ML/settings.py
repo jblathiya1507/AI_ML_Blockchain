@@ -76,9 +76,13 @@ WSGI_APPLICATION = 'AI_ML.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'Interviews',  #database name
+       'USER': 'postgres',  #username
+       'PASSWORD': 'post',  #login password
+       'HOST': 'localhost',  #host name
+       'PORT': '5432',  #port number
+   }
 }
 
 
