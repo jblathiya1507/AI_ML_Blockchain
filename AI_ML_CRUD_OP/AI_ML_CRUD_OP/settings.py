@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'AI_ML_CRUD_OP.wsgi.application'
 DATABASES = {
     'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'postgres',  #database name
+       'NAME': 'InterviewData',  #database name
        'USER': 'postgres',  #username
        'PASSWORD': 'post',  #login password
        'HOST': 'localhost',  #host name
