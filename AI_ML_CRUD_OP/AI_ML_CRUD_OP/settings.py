@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'CRUD',
 ]
 
 MIDDLEWARE = [
@@ -75,9 +76,17 @@ WSGI_APPLICATION = 'AI_ML_CRUD_OP.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'postgres',  #database name
+       'USER': 'postgres',  #username
+       'PASSWORD': 'post',  #login password
+       'HOST': 'localhost',  #host name
+       'PORT': '5432',  #port number
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': BASE_DIR / 'db.sqlite3',
+    # }
 }
 
 
