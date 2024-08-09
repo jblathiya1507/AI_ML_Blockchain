@@ -9,7 +9,7 @@ class StatusMaster(models.Model):
     def __str__(self):
         return self.Sts_Status_desc
     
-    
+
 class CountryMaster(models.Model):
     cou_country_id = models.SmallIntegerField(primary_key=True)   
     cou_country_name = models.CharField(max_length=255, unique=True)
