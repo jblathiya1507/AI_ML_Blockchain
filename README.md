@@ -17,4 +17,4 @@
 
 - Create database in postgres server,
   - `Database name : InterviewData`
-  - `Password : post`    //set this password in postgres server otherwise change in settings.py
+  - `Password : post`    //set this password in postgres server otherwise change in `settings.py`
