@@ -4,7 +4,7 @@
 
 - Create virtual environment : `python -m virtualenv -p python <environment_name>`
 
-- `cd <environment_name> cd Scripts\activate`
+- `cd <environment_name> Scripts\activate`
 
 - Install libraries,
   - `pip install django`
