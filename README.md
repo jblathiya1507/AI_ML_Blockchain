@@ -12,7 +12,7 @@
   - `pip install django-compositepk-model`   //for composite key
   - `pip install psycopg2`   //for use postgres server
 
-- And put that project folder of this project in this environment folder after the unzip this downloaded zip file..
+- And put that project folder of this project in this environment folder after the unzip this downloaded zip file.
 
 
 - Create database in postgres server,
