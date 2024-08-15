@@ -12,7 +12,8 @@
   - For composite key, `pip install django-compositepk-model`   
   - For use postgres server, `pip install psycopg2`   
 
-- Download this zip file and put in environment folder after the unzip the downloaded zip file.
+> [!NOTE]
+> Download this zip file and put in environment folder after the unzip the downloaded zip file.
 
 - Create database in postgres server,
   - Database name : InterviewData
