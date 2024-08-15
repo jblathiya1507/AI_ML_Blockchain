@@ -1,19 +1,25 @@
 # AI_ML_Blockchain
 
-- Install virtual environment : `pip install virtualenv`
+- Install virtual environment :
+  - `pip install virtualenv`
 
-- Create virtual environment : `python -m virtualenv -p python <environment_name>`
+- Create virtual environment :
+  - `python -m virtualenv -p python <environment_name>`
 
-- `cd <environment_name> Scripts\activate`
+- Activate virtual environment : 
+  - `cd <environment_name> Scripts\activate`
 
 - Install libraries,
-  - `pip install django`
-  - `pip install pillow`    //for image in model
-  - `pip install django-compositepk-model`   //for composite key
-  - `pip install psycopg2`   //for use postgres server
+  - For Django,  
+    - `pip install django`
+  - For use image in model,
+    - `pip install pillow`    
+  - For composite key,
+    - `pip install django-compositepk-model`   
+  - For use postgres server,
+    - `pip install psycopg2`   
 
-- And put that project folder of this project in this environment folder after the unzip this downloaded zip file.
-
+- Download this zip file and put in environment folder after the unzip the downloaded zip file.
 
 - Create database in postgres server,
   - Database name : InterviewData
