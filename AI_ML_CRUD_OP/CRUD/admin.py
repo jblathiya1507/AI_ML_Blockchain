@@ -5,7 +5,7 @@ from .models import *
 
 admin.site.register(StatusMaster)
 
-admin.site.register(CountryMaster)
+admin.site.register()
 
 admin.site.register(CountryFlag)
 
