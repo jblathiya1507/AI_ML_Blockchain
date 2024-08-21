@@ -15,7 +15,6 @@
 - Create database in postgres server,
   - Database name : InterviewData
   - Password : post      //set this password in postgres server otherwise change in `settings.py`
- 
 
 > [!NOTE]
 > Download this zip file and put in environment folder after the unzip the downloaded zip file.
